@@ -1,0 +1,14 @@
+body {
+  background-image: url('/assets/images/bg.gif');
+  color: #fbde19;
+}
+
+.indexCarousel {
+  width: 100%;
+  height: 455px;
+  overflow: hidden;
+}
+
+i {
+  color: #ffffff;
+}

@@ -6,4 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 export default Router.map(function() {
+  this.route('about');
+  this.resource('artists');
+  this.route('artist', {path: '/artist/:artist_id'});
+  this.route('services');
 });

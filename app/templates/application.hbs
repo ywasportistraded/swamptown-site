@@ -1,3 +1,30 @@
-<h2 id="title">Welcome to Ember.js</h2>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+      <div>
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#swamptown-nabvar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              {{#link-to 'index' classNames="navbar-brand"}}Swamptown Records{{/link-to}}
+          </div>
+          <div class="collapse navbar-collapse" id="swamptown-nabvar-collapse">
+            <ul class="nav navbar-nav">
+                <li>{{#link-to 'artists'}}Artists{{/link-to}}</li>
+                <li>{{#link-to 'about'}}About{{/link-to}}</li>
+                <li>{{#link-to 'services'}}Services{{/link-to}}</li>
+                <!--
 
-{{outlet}}
+                <li><a href="pictures.html">Swamptown Pictures</a></li>
+                <li><a href="internship.html">Internship</a></li>-->
+            </ul>
+          </div>
+      </div>
+  </div>
+</nav>
+
+<div id='mainContainer' class='container-fluid'>
+  {{liquid-outlet}}
+</div>
