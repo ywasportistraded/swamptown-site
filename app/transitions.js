@@ -10,7 +10,7 @@ export default function(){
     }),
     this.reverse('explode', {
       matchBy: 'data-photo-id',
-      use: ['fly-to', {duration: '2000', easing: 'spring'}]
+      use: ['fly-to', {duration: '1000', easing: 'spring'}]
     })
   );
 }

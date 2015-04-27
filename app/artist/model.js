@@ -38,6 +38,30 @@ var Artist = DS.Model.extend({
         instagramPath: 'theabsentlight',
         twitterPath: 'theabsentlight',
         status: 'Recording'
+      },
+      {
+        id: 3,
+        name: 'John Paul and the Apostles',
+        description: 'A year of touring the Puget Sound, nine bassists and a kazoo player later, Tyson, Evan, and Joe are now focusing on releasing their debut full length album "Emily." (feat. contributions from former member Mike Greene). We are the second coming of Rock. We are John Paul and the Apostles.',
+        photo: 'Thats insensitive',
+        imagePath: '/assets/images/johnpaulandtheapostles.jpg',
+        facebookPath: 'johnpaulandtheapostles',
+        youtubePath: 'JPATAmusic',
+        instagramPath: 'jpata',
+        twitterPath: 'JPATAband',
+        status: 'Touring'
+      },
+      {
+        id: 4,
+        name: 'Swamp Jr.',
+        description: 'Swamp Jr. description',
+        photo: 'Thats insensitive',
+        imagePath: '/assets/images/swampjr.jpg',
+        facebookPath: 'swamptownrecords',
+        youtubePath: 'swamptownrecords',
+        instagramPath: 'swamptownrecords',
+        twitterPath: 'swamptownmusic',
+        status: 'Recording'
       }
     ]
   });
